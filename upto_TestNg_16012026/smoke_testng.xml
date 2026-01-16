@@ -1,0 +1,15 @@
+<suite name="Suite">
+<groups>
+<run>
+<include name="SmokeTest"/>
+</run>
+</groups>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="WorkingOnTEstNG.AdminOrderTest"/>
+      <class name="WorkingOnTEstNG.CustomerOrderTest"/>
+      <class name="WorkingOnTEstNG.UserOrderTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
